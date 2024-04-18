@@ -1,0 +1,7 @@
+/* pages/result/result.wxss */
+.success-failure-image {
+  width: 15%;
+  height: 105rpx;
+  margin-bottom: 72rpx;
+  text-align: center;
+}

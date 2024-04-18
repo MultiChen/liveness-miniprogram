@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+      "bio-detector": "../../components/face-liveness"
+  },
+  "componentPlaceholder": {
+      "bio-detector": "view"
+    }
+}

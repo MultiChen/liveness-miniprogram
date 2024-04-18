@@ -1,0 +1,12 @@
+<!--pages/camera/camera.wxml-->
+<!-- <view class="container">
+  <button class="back-button" bindtap="onBack">返回</button>
+  <view class="camera-container">
+    <camera class="camera" mode="cover" bindinitdone="onInitDone" binderror="onError"></camera>
+    <view class="circle-overlay"></view>
+  </view>
+</view> -->
+
+<view>
+  <bio-detector/>
+</view>

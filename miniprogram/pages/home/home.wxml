@@ -1,0 +1,13 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <image class="face-id-image" src="../../images/face-id.png"></image>
+  <view class="title">
+    刷脸验证
+  </view>
+  <view class="description" style="width: 634rpx; height: 100rpx; display: block; box-sizing: border-box">
+    当前功能只有微信实名才能使用，请确保本人操作。
+  </view>
+  <button class="verify-button" data-url="../camera/camera" bindtap="Navigate">
+    验证
+  </button>
+</view>

@@ -1,0 +1,5 @@
+<!--pages/result/result.wxml-->
+<view class="container" style="width: 750rpx; height: 1184rpx; display: flex; box-sizing: border-box">
+  <image class="success-failure-image" src="{{imageSrc}}" style="position: relative; left: 0rpx; top: 424rpx; width: 130rpx; height: 130rpx; display: block; box-sizing: border-box"></image>
+  <text style="position: relative; text-align: center; font-size: 35rpx; left: 0rpx; top: 390rpx; width: 354rpx; height: 48rpx; display: block; box-sizing: border-box">{{resultText}}</text>
+</view>

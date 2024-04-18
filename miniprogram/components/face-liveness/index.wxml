@@ -1,0 +1,12 @@
+<!-- pages/face_detector/index.wxml -->
+<view class="{{pageClass}}">
+  <view class="camera-box">
+    <view class="{{cameraBorder}}">
+      <camera class="{{cameraClass}}" id="camera" device-position="front" flash="off" binderror="error" resolution="medium"	frame-size="medium">
+        <canvas class="canvas" type="2d" canvas-id="face" id="face" style="border: 0px solid; width: 720rpx; height: 1280rpx; z-index: 100000;"></canvas>
+      </camera>
+    </view>
+  </view>
+  <view class="face_detect_tips">{{faceDetectTips}}</view>
+  <canvas class="eyecanvas" type="2d" canvas-id="eyes_blink" id="eyes_blink"></canvas>
+</view>

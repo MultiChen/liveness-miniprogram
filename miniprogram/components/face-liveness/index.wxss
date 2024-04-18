@@ -1,0 +1,100 @@
+.face_detect_tips {
+  width: 100vw;
+  height: 100rpx;
+  text-align: center;
+  position: absolute;
+  top: 600rpx;
+  left: auto;
+  font-size: 36rpx;
+}
+
+.camera-box {
+  width: 100vw;
+  padding: 40rpx 125rpx;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.camera-border{
+  width: 500rpx;
+  height: 500rpx;
+  overflow: hidden;
+  border-radius: 50%;
+  z-index: 999;
+  position: absolute;
+  border: 8rpx solid #3477FF;
+}
+
+.camera-border-red {
+  width: 500rpx;
+  height: 500rpx;
+  overflow: hidden;
+  border-radius: 50%;
+  z-index: 999;
+  position: absolute;
+  border: 8rpx solid #FE5A5F;
+}
+
+.detect-camera {
+  width: 500rpx;
+  height: 666rpx;
+  margin-top: -30rpx;
+  position: absolute;
+}
+
+.detect-camera-model {
+  width: 500rpx;
+  height: 666rpx;
+  position: absolute;
+  margin-top: -30rpx;
+  filter: blur(4px);
+}
+
+.detect-white {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.detect-red {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+}
+
+.detect-yellow {
+  width: 100vw;
+  height: 100vh;
+  background-color: yellow;
+  width: 100vw;
+  height: 100vh;
+}
+
+.detect-green {
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+  width: 100vw;
+  height: 100vh;
+}
+
+.detect-blue {
+  width: 100vw;
+  height: 100vh;
+  background-color: #00f;
+  width: 100vw;
+  height: 100vh;
+}
+
+.eyecanvas{
+  border:0 solid;
+  width:375pr;
+  height:500rpx;
+  position:absolute;
+  top:-1000rpx;
+  left:-1000rpx;
+}
