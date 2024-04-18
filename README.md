@@ -2,7 +2,8 @@
 
 ## 项目简介
 
-实现眨眼——光线活体检测。
+实现眨眼——光线活体检测。  
+前置背景知识可参考博客[红尘客栈](https://www.hckz.fun/2024/03/28/%E5%9B%BE%E5%83%8F%E5%8F%8D%E6%AC%BA%E8%AF%88/)。
 
 ## 目录结构
 ```
@@ -23,7 +24,7 @@ liveness-miniprogram/
 ![认证流程](https://hckz-1259319636.cos.ap-guangzhou.myqcloud.com/imgs/blog/%E6%B4%BB%E4%BD%93%E5%B0%8F%E7%A8%8B%E5%BA%8F.png)
 
 ## 功能流程图
-*前端模型模型流程图*  
+*前端模型流程图*  
 <img src=https://hckz-1259319636.cos.ap-guangzhou.myqcloud.com/imgs/blog/%E6%B4%BB%E4%BD%93%E6%A3%80%E6%B5%8B%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9E%8B%E6%B5%81%E7%A8%8B%E5%9B%BE.png width=50% />
 
 *后端模型流程图*  
