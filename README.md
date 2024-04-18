@@ -1,12 +1,61 @@
-# 云开发 quickstart
+# 光线活体小程序
 
-这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
+## 项目简介
 
-- 数据库：一个既可在小程序前端操作，也能在云函数中读写的 JSON 文档型数据库
-- 文件存储：在小程序前端直接上传/下载云端文件，在云开发控制台可视化管理
-- 云函数：在云端运行的代码，微信私有协议天然鉴权，开发者只需编写业务逻辑代码
+实现眨眼——光线活体检测。
 
-## 参考文档
+## 目录结构
+```
+liveness-miniprogram/
+│
+├── miniprogram/ — 小程序前端代码
+│   ├── components — 小程序组件 
+│   ├── images — 页面相关图标
+│   ├── pages — 项目页面
+│   └── utils - 项目工具函数
+│
+└── liveness/ — python后端代码
+    ├── face_liveness.py — 活体检测功能
+    ├── main.py — fastAPI入口
+    └── test.py — 测试脚本
+```
+## 页面展示
+![认证流程](https://hckz-1259319636.cos.ap-guangzhou.myqcloud.com/imgs/blog/%E6%B4%BB%E4%BD%93%E5%B0%8F%E7%A8%8B%E5%BA%8F.png)
 
-- [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
+## 功能流程图
+*前端模型模型流程图*  
+![](https://hckz-1259319636.cos.ap-guangzhou.myqcloud.com/imgs/blog/%E6%B4%BB%E4%BD%93%E6%A3%80%E6%B5%8B%E5%89%8D%E7%AB%AF%E6%A8%A1%E5%9E%8B%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
+*后端模型流程图*  
+![](https://hckz-1259319636.cos.ap-guangzhou.myqcloud.com/imgs/blog/%E6%B4%BB%E4%BD%93%E6%A3%80%E6%B5%8B%E5%90%8E%E7%AB%AF%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+
+
+## 快速开始
+
+要在本地运行光线活体小程序，请按照以下步骤操作：
+
+1. 克隆仓库
+
+   ```
+   git clone https://github.com/MultiChen/liveness-miniprogram.git
+   ```
+
+2. 启动后台应用
+
+   ```
+   cd liveness-miniprogram/liveness
+   pip install -r requirements.txt
+   python main.py
+   ```
+
+3. 启动小程序
+   - [打开微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
+   - 导入项目
+   - 修改app.js中url为你本地ip
+   - 启用真机调试-->选择局域网模式-->勾选不校验HTTPS证书
+   
+
+
+## 许可
+
+[MIT](LICENSE) &copy; [MultiChen]
