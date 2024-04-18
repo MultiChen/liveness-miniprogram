@@ -14,6 +14,8 @@ App({
       });
     }
 
-    this.globalData = {};
+    this.globalData = {
+      url : 'http://<your ip>:8000/face_liveness'
+    };
   }
 });

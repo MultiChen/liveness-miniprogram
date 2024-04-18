@@ -1,3 +1,4 @@
+var e = getApp(),url = e.globalData.url;
 const {
   EyesBlinkDetector
 } = require('../../utils/blinkDetector');
@@ -631,7 +632,7 @@ Component({
         console.log('发送request请求')
         // 使用wx.request发送数据
         wx.request({
-          url: 'http://192.168.31.61:8000/face_liveness',
+          url: url,
           method: 'POST',
           // data: JSON.stringify({
           //   active_face_photo_base64: activeFacePhotoBase64,
