@@ -1,0 +1,13 @@
+fastapi==0.110.2
+modelscope==1.13.3
+numpy==1.21.5
+numpy==1.23.5
+numpy==1.24.1
+opencv_python==4.7.0.68
+opencv_python_headless==4.7.0.68
+pydantic==1.10.4
+Requests==2.31.0
+uvicorn==0.29.0
+mmcv==1.7.2
+mmcv-full==1.7.2
+mmdet==2.28.2
